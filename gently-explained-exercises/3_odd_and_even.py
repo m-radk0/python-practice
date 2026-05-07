@@ -1,16 +1,10 @@
 def isOdd(number):
     """Returns True when number is odd"""
-    if number % 2 == 1:
-        return True
-    else:
-        return False
+    return number % 2 == 1
 
 def isEven(number):
     """Returns True when number is even"""
-    if number % 2 == 0:
-        return True
-    else:
-        return False
+    return number % 2 == 0
 
 assert isOdd(42) == False
 assert isOdd(9999) == True

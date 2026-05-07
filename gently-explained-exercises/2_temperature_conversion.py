@@ -1,7 +1,9 @@
 def convertToFahrenheit(degreesCelsius):
+    """Returns degrees in Fahrenheight."""
     return degreesCelsius * (9 / 5) + 32
     
 def convertToCelsius(degreesFahrenheit):
+    """Returns degrees in Celsius."""
     return (degreesFahrenheit - 32) * (5 / 9)
     
 assert convertToCelsius(0) == -17.77777777777778
